@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/two.css"/>
+		<link rel="stylesheet" type="text/css" href="css/three.css"/>
+		
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css"/>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"/>
+		<script src="bootstrap/js/jquery-1.9.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="bootstrap/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script src="js/one.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/xuexi.css"/>
+	</head>
+	<style type="text/css">
+		.container{
+			margin-top: 10%;
+			margin-bottom:5%;
+		}
+		.footer{
+			display: none;
+		}
+		#input1 div{
+			margin: 2rem;
+		}
+		.lianxi{
+			background: -webkit-linear-gradient(0deg, #70f7fe, #fbd7c6, #fdefac, #bfb5dd, #bed5f5,#70f7fe);
+			color: transparent;
+			-webkit-background-clip: text;
+			animation: ran 5s linear infinite;
+			font-weight: bold;
+		}
+		@keyframes ran {
+                0% {
+                	background-position: 0 0;
+                }
+                100%{
+                	background-position: 2000px 0;
+                }
+            }
+	</style>
+	<body style="background: url(imgs/blue.svg);background-size: 100%;">
+		<div class="navbar-header">
+  			<a href="index.html">ZhangTao的博客</a>
+		</div>
+		<main>
+			 <div class="container">
+			        <div class="row text-center justify-content-center">
+			          <div class="col-md-12 lianxi">
+			            <h1>联系我们</h1>
+			            <h2>我们很高兴听到你的消息！</h2>
+			          </div>
+			        </div>
+			        <div class="row">
+			          <div class="col-md-12">
+			            <form>
+			              <div class="row col-md-12" id="input1">
+			                <div class="col-md-4">
+			                  <input type="text" class="form-control" placeholder="姓名">
+			                </div>
+			                <div class="col-md-4">
+			                  <input type="text" class="form-control" placeholder="邮箱">
+			                </div>
+			                <div class="col-md-4">
+			                  <input type="text" class="form-control" placeholder="电话">
+			                </div>
+			              </div>
+			              <div class="col-md-12" id="input1">
+			                <div class="col">
+			                  <input type="email" class="form-control" placeholder="主题">
+			                </div>
+			              </div>
+			              <div class="col-md-12">
+			                <div class="col">
+			                  <textarea class="form-control" name="message" rows="3" placeholder="内容"></textarea>
+			                </div>
+			              </div>
+			              <div class="row mt-4" id="input1">
+			                <div class="col text-center">
+			                  <button type="submit" class="btn btn-dark" style="background: #0099FF;margin: 2rem;">提交</button>
+			                </div>
+			              </div>
+			            </form>
+			          </div>
+			        </div>
+			      </div>
+		</main>
+			<footer>
+				<div class="footer">
+					<h5>©2019年版权所有</h5>
+				</div>
+			</footer>
+<!--
+	描述：右下方手机图标和在线交流	
+-->
+		<div class="jiaoliu" title="在线交流">
+			<a href="#jiaoliu"><img src="imgs/love_message_phone_84px_1209614_easyicon.net.png" ></a>
+		</div>
+		<div class="jiaoliu-kuang">
+			<div class="jiaoliu-kuang-header">
+				<h2>在线交流</h2>
+				<span class="glyphicon glyphicon-remove" data-toggle="modal" data-target="#myModal"></span>
+			</div>
+			<div class="jiaoliu-main" id="jiaoliu-main">
+				<div class="c2">
+					<div class="jiaoliu-main-img"><img src="imgs/face.jpg"/></div>
+					<div class="jiaoliu-main-kk" style="float: right;">
+						<div class="tag">
+	 					<p class="arrow">
+	     					<em></em><span>离线请留言</span>
+	    				</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="jiaoliu-footer">
+				<input type="text"  id="txt1" value="" />
+				<span id="btn1" class="jiaoliu-footer-btn">提交</span>
+			</div>
+		</div>
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="myModalLabel">
+							提示
+						</h4>
+					</div>
+					<div class="modal-body">
+						要关闭吗？
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal" id="cloce">关闭
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>

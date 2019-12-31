@@ -1,0 +1,132 @@
+/*右下方手机图标和在线交流*/
+.jiaoliu{
+	position: fixed;
+	bottom: 4rem;
+	right: 2rem;
+	z-index: 9999;
+	opacity: 0.8;
+}
+.jiaoliu img{
+	width: 60%;
+	height: 60%;
+}
+.jiaoliu-kuang{
+	position: fixed;
+	top: 6rem;
+	right: 0rem;
+	width: 20%;
+	height: 90%;
+	border-radius: 10px;
+	transform:translateX(1000px);
+	transition: 2S;
+	border: 2px solid #CCCCCC;
+	z-index: 9999;
+	background: #FFFFFF;
+}
+.jiaoliu-kuang-header{
+	height: 8%;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+}
+.jiaoliu-kuang-header h2{
+	float: left;
+	font-size: 2rem;
+	margin-left: 2rem;
+	font-weight: bold;
+	line-height: 8%;
+}
+.jiaoliu-kuang-header span{
+	float: right;
+	margin-top: 1.5rem;
+	margin-right: 2rem;
+	line-height: 8%;
+}
+.jiaoliu-main{
+	height: 80%;
+	width: 100%;background: #AFD9EE;
+	float: left;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.tag{ width:auto; height:40px;position:relative; background-color:#09F;border-radius: 10px;}
+.tag em{display:block; border-width:10px; position:absolute; bottom:10px; left:-20px;border-style:solid dashed dashed; border-color:transparent #09F transparent transparent;font-size:0; line-height:0;}
+
+.tag2 em{display:block; border-width:10px; position:absolute; bottom:10px; left:260px;border-style:solid dashed dashed; border-color:transparent transparent transparent #09f;font-size:0; line-height:0;
+}
+.jiaoliu-main-img{
+	width: 20%;
+	height: 20%;
+	float: left;
+	margin-top: 2%;
+	margin-left: 2%;
+}
+.jiaoliu-main-img img{
+	width: 100%;
+	border: 2px solid #FFFFFF;
+}
+.c2{
+	width: 100%;
+	height: 20%;
+}
+.jiaoliu-main-kk{
+	width: 70%;
+	height: 20%;
+	float: left;
+	margin:2%;
+	font-size: 1rem;
+	line-height: 3.5rem;
+}
+.jiaoliu-main-kk span{
+	margin-left: 1rem;
+}
+.jiaoliu-footer{
+	height: 10%;
+	width: 80%;
+	margin-left: 10%;
+	float: left;
+	margin-top: 6%;
+}
+.jiaoliu-footer input{
+	width: 80%;
+	height: 4rem;
+	float: left;
+}
+.jiaoliu-footer-btn{
+	float: left;
+	width: 20%;
+	height: 4rem;
+	background: #0056B3;
+	text-align: center;
+	line-height: 4rem;
+	cursor: pointer;
+}
+/*1*/
+
+
+/*版权信息*/
+.footer{
+	width: 100%;
+	float: left;
+	background: #F2F2F2;
+	text-align: center;
+	box-shadow: 10px 5px 10px #000000;
+	margin-top: ;
+}
+/*头部*/
+.navbar-header{
+	position: fixed;
+	box-shadow: 0 0 3px rgba(14, 14, 14, 0.26);
+	width: 100%;
+	top: 0;
+	left: 0;
+	text-align: center;
+	padding: 2rem;
+	background: linear-gradient(30deg, #21D4FD, #B721FF);
+	z-index: 999;
+}
+.navbar-header a{
+	font-size: 1.2rem;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFFFFF;
+}
